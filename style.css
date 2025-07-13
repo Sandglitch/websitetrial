@@ -3,6 +3,7 @@
 .Headwrap{
     display:flex;
     justify-content:center;
+    align-items:row-reverse;
 }
 
 .Headcont{
@@ -41,7 +42,7 @@
 }
 
 .bodycont{
-    padding:20px;
+    padding:15px;
     margin:5px;
     color:white;
     background-color:dimgrey;
@@ -65,20 +66,50 @@
     font-size:18px;
 }
 
+.bodycont a{
+    font-size:22px;
+}
+
 .bodywrap{
     display:flex;
     justify-content:center;
     margin:5px;
 }
 
-h1{
-    text-align: center;
-    
-}
 
-.montserrat-bodycont {
+
+/* .montserrat-bodycont {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+} */
+
+.Submit{
+    color:aliceblue;
+    background-color:rgb(2, 37, 25);
+}
+
+.Homebutton{
+    background-color: dimgray;
+    color:white;
+    font-family: "Bitcount Grid Double", system-ui;
+    letter-spacing:1px;
+    border-radius:10px;
+    height:100px;
+    width:200px;
+    padding:20px;
+    margin:10px;
+    color:rgb(252, 245, 245);
+    font-weight: 400;
+    font-size:24px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Homebutton a{
+    text-decoration: none;
+    color: rgb(252, 245, 245);
+    font-weight:400;
 }
