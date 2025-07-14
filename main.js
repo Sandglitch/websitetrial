@@ -1,13 +1,17 @@
 function checkq1() {
     let answer=document.querySelector('input[name="question1"]:checked');
+    let reply=document.getElementById("resultant");
+    if(!answer){
+        reply.innerText="Choose an option"
+    }
     if(answer.value==="21"){
-        alert("A man of culture you are;)");
+        reply.innerText="You got the reference, not the correct answer though"
     }
     else if(answer.value==="19"){
-        alert("Right you are mi amigo");
+        reply.innerText="Correct!"
     }
     else if(answer.value==="10011"){
-        alert("WRANG IT IS IN DECIMAL YOU FOOL");
+        reply.innerText="WRANG!";
     }
 
 }

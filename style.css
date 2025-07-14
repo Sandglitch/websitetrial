@@ -159,3 +159,10 @@
     font-weight:600;
     text-decoration: none;
 }
+
+.answerspan{
+    background-color: chocolate;
+    display:inline-block;
+    border-radius:10px;
+    padding:5px;
+}
